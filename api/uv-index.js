@@ -4,7 +4,7 @@ export default {
     const apiId = 'fdf871cedaf3413c6a23230372c30a02'
     try {
       const { data: response } = await axios
-        .get('http://api.openweathermap.org/data/2.5/uvi', {
+        .get('https://api.openweathermap.org/data/2.5/uvi', {
           params: {
             appid: apiId,
             ...data
